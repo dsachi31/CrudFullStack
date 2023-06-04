@@ -1,0 +1,83 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: black;
+    padding:50px
+}
+div{
+    background:-o-linear-gradient(green, white);
+}
+table{
+    background-color:rgb(41, 68, 143);
+    margin:auto;
+    padding:30px 
+}
+th{
+    background-color:black;
+    color:gold;
+    padding:10px;
+    font-size:larger
+}
+td{
+    background-color: black;
+    color:aqua;
+    padding:10px;
+    font-weight: bold;
+}
+.button{
+    background-color: white;
+    color:black;
+    width:100px;
+    height:40px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btn , .btn1{
+    background-color: white;
+    width:100px;
+    height:40px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btn:hover{
+    background-color: yellow;
+}
+.btn1:hover{
+    background-color: yellow;
+}
+.btn:active{
+    background-color: greenyellow;
+}
+.nav{
+    background-color: darkgray;
+    width:50%;
+    height:80px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.sch{
+    width:80%;
+    height:100%;
+    /* background-color: blue; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    width:50%;
+    height:50%;
+    border-radius: 5px;
+    border-right-color:white;
+}
+.srch{
+    width:15%;
+    height:50%;
+    border-radius: 5px;
+}

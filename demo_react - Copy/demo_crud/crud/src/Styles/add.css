@@ -1,0 +1,15 @@
+*{
+    margin:0;
+}
+input{
+    width:300px;
+    height:25px;
+}
+input{
+    display:grid;
+    grid-template-rows: 150px;
+    row-gap: 200px;
+}
+label{
+    color:yellow;
+}
